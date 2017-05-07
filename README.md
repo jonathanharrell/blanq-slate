@@ -1,7 +1,7 @@
 # BlanQSlate
 A simple CSS reset that includes removal of default input styling.
 
-![BlanQSlate](https://raw.githubusercontent.com/jonathanharrell/blanq-slate/master/blanq-slate.png)
+![BlanQSlate](https://raw.githubusercontent.com/jonathanharrell/blanq-slate/master/blanq-slate.png =250x)
 
 Based on [MiniReset.css](https://github.com/jgthms/minireset.css). Introduces some modifications and additionally removes default styling from button and input elements.
 
