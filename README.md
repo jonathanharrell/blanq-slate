@@ -19,3 +19,7 @@ npm install blanq-slate
 ```
 
 Or download/clone the repo.
+
+## Usage
+
+BlanQSlate is designed to make it easier for you to write your own styling. Wherever possible, default browser styles have been removed. In some cases, this may cause parts of certain input elements to become invisible. It's up to you to write basic styles that will properly display these inputs.
