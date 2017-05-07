@@ -44,11 +44,11 @@ h6 {
 }
 
 /*
-Set body font size to match browser size
+Set html font size to match browser size
 Prevent adjustments of font size after orientation changes on some mobile devices
 Reset line height
 */
-body {
+html {
   font-size: 100%;
   line-height: 1;
   -ms-text-size-adjust: 100%;
