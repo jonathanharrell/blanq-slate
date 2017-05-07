@@ -1,0 +1,182 @@
+/*Set border-box box sizing so borders and padding don't affect set dimensions*/
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*::before {
+  box-sizing: inherit;
+}
+
+*::after {
+  box-sizing: inherit;
+}
+
+/*Reset block margins so spacing is only applied when needed*/
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Set body font size to match browser size
+Prevent adjustments of font size after orientation changes on some mobile devices
+Reset line height
+*/
+body {
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*Reset font sizes so semantic markup doesn't affect styling*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/*Remove bullets from unordered lists*/
+ul {
+  list-style: none;
+}
+
+/*Remove border from iframes*/
+iframe {
+  border: 0;
+}
+
+/*Set responsive media elements so images and embeds scale with browser width*/
+img,
+embed,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/*Reset tables so tabular data only takes the space it needs*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+/*Remove default styling of buttons and inputs*/
+button,
+input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: inherit;
+  background-image: none;
+  background-color: transparent;
+  resize: none;
+}
+
+/*Remove clear and reveal buttons from inputs in IE*/
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/*Remove scrollbars from textarea in IE to match other browsers*/
+textarea {
+  overflow: auto;
+}
+
+/*Remove dropdown arrow from selects in IE*/
+select::-ms-expand {
+  display: none;
+}
+
+/*Remove default styling for spinners in various inputs*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button,
+input[type=date]::-webkit-clear-button,
+input[type=month]::-webkit-inner-spin-button,
+input[type=month]::-webkit-outer-spin-button,
+input[type=month]::-webkit-clear-button,
+input[type=week]::-webkit-inner-spin-button,
+input[type=week]::-webkit-outer-spin-button,
+input[type=week]::-webkit-clear-button,
+input[type=datetime-local]::-webkit-inner-spin-button,
+input[type=datetime-local]::-webkit-outer-spin-button,
+input[type=datetime-local]::-webkit-clear-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Remove default styling for meter elements*/
+meter {
+  -webkit-appearance: none;
+}
+
+/*Remove default styling for progress elements*/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-ms-track {
+  border-color: transparent;
+  color: transparent;
+  background: transparent;
+}
+
+::-moz-progress-bar {
+  -moz-appearance: none;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "blanq-slate",
+  "version": "1.0.0",
+  "description": "A simple CSS reset that includes removal of default input styling.",
+  "main": "index.js",
+  "scripts": {
+    "uglify": "uglifycss blanq-slate.css --output blanq-slate-min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jonathanharrell@github.com/jonathanharrell/blanq-slate.git"
+  },
+  "author": "Jonathan Harrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanharrell/blanq-slate/issues"
+  },
+  "homepage": "https://github.com/jonathanharrell/blanq-slate#readme",
+  "devDependencies": {
+    "uglifycss": "0.0.27"
+  }
+}
