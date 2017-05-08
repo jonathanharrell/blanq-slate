@@ -106,6 +106,10 @@ th {
   text-align: left;
 }
 
+th {
+  font-weight: normal;
+}
+
 /* Remove default styling of buttons and inputs */
 
 button,
