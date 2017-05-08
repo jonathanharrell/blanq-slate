@@ -1,6 +1,6 @@
 {
   "name": "blanq-slate",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A simple CSS reset that includes removal of default input styling.",
   "main": "index.js",
   "scripts": {
