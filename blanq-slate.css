@@ -183,6 +183,12 @@ meter {
   -webkit-appearance: none;
 }
 
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+}
+
 /* Remove default styling for progress elements */
 
 input[type=range]::-webkit-slider-thumb {
