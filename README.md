@@ -22,4 +22,17 @@ Or download/clone the repo.
 
 ## Usage
 
+Include full or minified version in the head:
+
+```html
+<link rel="stylesheet" href="node_modules/blanq-slate/blanq-slate.css">
+<link rel="stylesheet" href="node_modules/blanq-slate/blanq-slate.min.css">
+```
+
+or import through css:
+
+```css
+@import '../node_modules/blanq-slate/blanq-slate.css';
+```
+
 BlanQSlate is designed to make it easier for you to write your own styling. Wherever possible, default browser styles have been removed. In some cases, this may cause parts of certain input elements to become invisible. It's up to you to write basic styles that will properly display these inputs.
