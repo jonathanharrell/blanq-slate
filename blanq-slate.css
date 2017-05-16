@@ -1,5 +1,4 @@
 /* Set border-box box sizing so borders and padding don't affect set dimensions */
-
 html {
   box-sizing: border-box;
 }
@@ -17,7 +16,6 @@ html {
 }
 
 /* Reset block margins so spacing is only applied when needed */
-
 html,
 body,
 p,
@@ -50,7 +48,6 @@ Set html font size to match browser size
 Prevent adjustments of font size after orientation changes on some mobile devices
 Reset line height
 */
-
 html {
   font-size: 100%;
   line-height: 1;
@@ -59,7 +56,6 @@ html {
 }
 
 /* Reset font sizes so semantic markup doesn't affect styling */
-
 h1,
 h2,
 h3,
@@ -71,19 +67,16 @@ h6 {
 }
 
 /* Remove bullets from unordered lists */
-
 ul {
   list-style: none;
 }
 
 /* Remove border from iframes */
-
 iframe {
   border: 0;
 }
 
 /* Set responsive media elements so images and embeds scale with browser width */
-
 img,
 embed,
 object,
@@ -93,7 +86,6 @@ video {
 }
 
 /* Reset tables so tabular data only takes the space it needs */
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -110,7 +102,6 @@ th {
 }
 
 /* Remove default styling of buttons and inputs */
-
 button,
 input,
 textarea,
@@ -134,7 +125,6 @@ select {
 }
 
 /* Remove clear and reveal buttons from inputs in IE */
-
 input::-ms-clear,
 input::-ms-reveal {
   display: none;
@@ -143,19 +133,16 @@ input::-ms-reveal {
 }
 
 /* Remove scrollbars from textarea in IE to match other browsers */
-
 textarea {
   overflow: auto;
 }
 
 /* Remove dropdown arrow from selects in IE */
-
 select::-ms-expand {
   display: none;
 }
 
 /* Remove default styling for spinners in various inputs */
-
 input[type=number] {
   -moz-appearance: textfield;
 }
@@ -186,7 +173,6 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 /* Remove default styling for meter elements */
-
 meter {
   -webkit-appearance: none;
 }
@@ -198,7 +184,6 @@ progress {
 }
 
 /* Remove default styling for progress elements */
-
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
 }
