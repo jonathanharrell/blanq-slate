@@ -177,13 +177,19 @@ meter {
   -webkit-appearance: none;
 }
 
+/* Remove default styling for progress elements */
 progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
 }
 
-/* Remove default styling for progress elements */
+/* Remove default styling for range inputs */
+input[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+}
+
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
 }
