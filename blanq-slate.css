@@ -175,6 +175,7 @@ input[type="search"]::-webkit-search-results-decoration {
 /* Remove default styling for meter elements */
 meter {
   -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 /* Remove default styling for progress elements */
