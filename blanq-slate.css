@@ -83,6 +83,7 @@ object,
 audio,
 video {
   max-width: 100%;
+  height: auto;
 }
 
 /* Reset tables so tabular data only takes the space it needs */
