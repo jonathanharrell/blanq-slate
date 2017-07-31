@@ -55,6 +55,22 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* Correct display of main in IE */
+main {
+  display: block;
+}
+
+/* Correct display of details and menu in Edge, IE and Firefox */
+details,
+menu {
+  display: block;
+}
+
+/* Correct display of summary in all browsers */
+summary {
+  display: list-item;
+}
+
 /* Reset font sizes so semantic markup doesn't affect styling */
 h1,
 h2,
@@ -64,6 +80,36 @@ h5,
 h6 {
   font-size: 100%;
   font-weight: normal;
+}
+
+/* Remove gaps in links underline in iOS and Safari */
+a {
+  -webkit-text-decoration-skip: objects;
+}
+
+/* Prevent `sub` and `sup` elements from affecting the line height in all browsers */
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+  line-height: 0;
+}
+
+/*
+Remove bottom border in abbreviations in Chrome and Firefox
+Add correct text deocration in Chrome, Edge, IE, Opera and Safari
+ */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+/* Correct `em` font sizing in all browsers */
+code,
+kbd,
+samp {
+  font-size: 1em;
 }
 
 /* Remove bullets from unordered lists */
@@ -86,10 +132,30 @@ video {
   height: auto;
 }
 
+/* Add correct display for audio controls in iOS 4-7 */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* Hide svg overflow in IE */
+svg:not(:root) {
+  overflow: hidden;
+}
+
 /* Reset tables so tabular data only takes the space it needs */
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*
+Correct text wrapping in Edge and IE
+Correct color inheritance from `fieldset` element
+*/
+legend {
+  white-space: normal;
+  color: inherit;
 }
 
 td,
@@ -187,10 +253,14 @@ meter {
   -moz-appearance: none;
 }
 
-/* Remove default styling for progress elements */
+/*
+Remove default styling for progress elements
+Correct vertical alignment in Chrome, Firefox, and Opera
+*/
 progress {
   -webkit-appearance: none;
   -moz-appearance: none;
+  vertical-align: baseline;
   border: none;
 }
 
