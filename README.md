@@ -1,16 +1,19 @@
-# BlanQSlate
+# BlanqSlate
 A simple CSS reset that includes removal of default input styling.
 
-<img src="https://raw.githubusercontent.com/jonathanharrell/blanq-slate/master/blanq-slate.png" alt="BlanQSlate" width="250" height="250" />
+<img src="https://raw.githubusercontent.com/jonathanharrell/blanq-slate/master/blanq-slate.png" alt="BlanqSlate" width="250" height="250" />
 
-Based on [MiniReset.css](https://github.com/jgthms/minireset.css). Introduces some modifications and additionally removes default styling from button and input elements.
+BlanqSlate is designed to make it easier for you to start writing your own styles. Its main purpose is to normalize element styles across browsers and remove opinionated styles like font sizes, margins and padding. Some key features include:
 
-* Sets border-box box sizing
-* Resets margins and padding
-* Normalizes font size to browser font size
+* Sets border-box box sizing on all elements
+* Removes default margins and padding
+* Sets all font sizes to base browser size
 * Sets responsive media elements
 * Resets table spacing
-* Removes default styling from button and input elements
+* Normalizes styling for button and input elements
+* Fixes many browser-specific display bugs
+
+Inspired by [MiniReset.css](https://github.com/jgthms/minireset.css) and [Bootstrap Reboot](https://getbootstrap.com/docs/4.0/content/reboot/).
 
 ## Install
 
@@ -29,10 +32,6 @@ Include full or minified version in the head:
 <link rel="stylesheet" href="node_modules/blanq-slate/blanq-slate.min.css">
 ```
 
-or import through css:
+## Elements Page
 
-```css
-@import 'node_modules/blanq-slate/blanq-slate.css';
-```
-
-BlanQSlate is designed to make it easier for you to write your own styling. Wherever possible, default browser styles have been removed. In some cases, this may cause parts of certain input elements to become invisible. It's up to you to write basic styles that will properly display these inputs.
+You can view a page of all HTML elements to see the effects of BlanqSlate by cloning the repo and opening `index.html` in a browser.
