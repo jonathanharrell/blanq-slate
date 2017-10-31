@@ -25,11 +25,11 @@ Or download/clone the repo.
 
 ## Usage
 
-Include full or minified version in the head:
+Include full or minified version:
 
 ```html
-<link rel="stylesheet" href="node_modules/blanq-slate/blanq-slate.css">
-<link rel="stylesheet" href="node_modules/blanq-slate/blanq-slate.min.css">
+<link rel="stylesheet" href="blanq-slate.css">
+<link rel="stylesheet" href="blanq-slate.min.css">
 ```
 
 ## Elements Page
